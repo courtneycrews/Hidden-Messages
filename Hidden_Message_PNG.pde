@@ -3,7 +3,7 @@ color col = #219ebc; // Change single color here
 color bg = #01053D; // Change background color here
 
 String letters = "abcdefghijklmnopqrstuvwxyz";
-String[] punc = {"comma", "period", "space", "quotes", "exclamation", "question", "ellipses"};
+String[] punc = {"comma", "period", "space", "quotes", "exclamation", "question"};
 
 int glyphCount = letters.length() + punc.length;
 PShape[] glyphs = new PShape[glyphCount];
